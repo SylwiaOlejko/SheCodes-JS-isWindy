@@ -12,7 +12,7 @@ let speed = prompt ("Do you have a windy day (1-10)? ");
   } else {
     alert("It is not windy");
   }
-
+isWindy();
 
 // Challenge 2
 // 1. Add unit parameter to isWindy
@@ -20,3 +20,11 @@ let speed = prompt ("Do you have a windy day (1-10)? ");
 // 3. Test both scenarios
 // isWindy(2, 'imperial') should return false
 // isWindy(20, 'metric') should return true
+function isWindy(speed) {
+  
+    if (isWindy > 5) {
+      return false;
+    } else {
+      return true;
+    }
+}
